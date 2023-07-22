@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+@import "url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap')";
 
 * {
   padding: 0;
@@ -15,15 +15,16 @@
   justify-content: center;
   margin-left: 600px;
   border-radius: 5px;
-  border: solid 1px rgb(184, 146, 21);
+  border: solid 1px #1b1b32;
   color: white;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif";
 }
 
 .formulaire label {
   display: flex;
   flex-direction: column;
 }
+
 .coche {
   margin-left: 0.25rem;
   font-size: 1rem;
@@ -42,7 +43,7 @@ h1 {
 }
 
 p {
-  margin:3px 8px 4px;
+  margin: 3px 8px 4px;
   font-size: 1.125rem;
   font-style: italic;
   text-align: center;
@@ -56,10 +57,10 @@ body {
   width: 100%;
   z-index: -1;
   background-image:
-    linear-gradient(
-    115deg,
-    rgba(58, 58, 158, 80%),
-    rgba(136, 136, 206, 70%)
+  linear-gradient(
+  115deg,
+  rgba(58, 58, 158, 80%),
+  rgba(136, 136, 206, 70%)
   ),
 
    "url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg)";
@@ -77,6 +78,7 @@ textarea {
   font-size: inherit;
   line-height: inherit;
 }
+
 :root {
   --color-white: #f3f3f3;
   --color-darkblue: #1b1b32;

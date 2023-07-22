@@ -1,5 +1,3 @@
-@import "url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap')";
-
 * {
   padding: 0;
   margin: 0;
@@ -56,14 +54,7 @@ body {
   height: 100%;
   width: 100%;
   z-index: -1;
-  background-image:
-  linear-gradient(
-  115deg,
-  rgba(58, 58, 158, 80%),
-  rgba(136, 136, 206, 70%)
-  ),
-
-   "url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg)";
+  background-image: linear-gradient(115deg,rgba(58, 58, 158, 80%),rgba(136, 136, 206, 70%)), "url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg)";
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -82,7 +73,7 @@ textarea {
 :root {
   --color-white: #f3f3f3;
   --color-darkblue: #1b1b32;
-  --color-darkblue-alpha: rgba(27, 27, 50, 80%);
+  --color-darkblue-alpha: rgba(27, 27, 50);
   --color-green: #37af65;
 }
 

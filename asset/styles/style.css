@@ -15,7 +15,7 @@
   border-radius: 5px;
   border: solid 1px #1b1b32;
   color: white;
-  font-family: ""'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"";
+  font-family: '"Gill Sans"', '"Gill Sans MT"', Calibri, '"Trebuchet MS"', sans-serif;
 }
 
 .formulaire label {
@@ -54,7 +54,7 @@ body {
   height: 100%;
   width: 100%;
   z-index: -1;
-  background-image: linear-gradient(115deg,#3a3a9ecc, #8888ceb3), "url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg)";
+  background-image: linear-gradient(115deg, #3a3a9ecc, #8888ceb3), "url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg)";
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

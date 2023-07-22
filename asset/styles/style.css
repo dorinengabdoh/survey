@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.head {
+ height: 100vh;
+ background-position: center;
+ background-size: cover;
+ 
+}
+.back {
+  width: 140px;
+  position: absolute;
+  top: 400px;
+  left: 10px;
+}
+.centre {
+ position: absolute;
+ margin: 400px auto 0 200px;
+ margin-left: 1000px;
+ padding: 100px 60px 90px 60px ;
+ border: solid 1px rgb(140, 140, 207);
+ text-align: inherit;
+ color: rgb(13, 149, 186);
+ background-color: rgb(71, 48, 89);
+ border-radius: 5px;
+ font-size: 30px;
+ list-style: 6;
+
+}
+.lien{
+  display: flex;
+  border: solid 2px skyblue;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding: 10px;
+  background-color: aqua;
+  
+}
+nav a{
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+body{
+  content: '';
+  overflow-y: scroll;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image: linear-gradient(
+    115deg,
+    rgba(113, 113, 142, 0.8),
+    rgba(136, 136, 206, 0.7)
+    ),
+    url(/portfolio/assets/images/back.jpeg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

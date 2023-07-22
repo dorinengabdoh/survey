@@ -1,52 +1,48 @@
 * {
   padding: 0;
-  margin: 0;
+  padding: 0;
 }
-.head {
- height: 100vh;
- background-position: center;
- background-size: cover;
- 
-}
-.back {
-  width: 140px;
-  position: absolute;
-  top: 400px;
-  left: 10px;
-}
-.centre {
- position: absolute;
- margin: 400px auto 0 200px;
- margin-left: 1000px;
- padding: 100px 60px 90px 60px ;
- border: solid 1px rgb(140, 140, 207);
- text-align: inherit;
- color: rgb(13, 149, 186);
- background-color: rgb(71, 48, 89);
- border-radius: 5px;
- font-size: 30px;
- list-style: 6;
 
-}
-.lien{
-  display: flex;
-  border: solid 2px skyblue;
-  display: flex;
-  justify-content: space-evenly;
-  list-style-type: none;
-  padding: 10px;
-  background-color: aqua;
-  
-}
-nav a{
-  color: black;
-  text-decoration: none;
-  text-transform: uppercase;
-
-}
-body{
-  content: '';
+.formulaire {
+  padding: 40px;
+  margin: 50px;
   overflow-y: scroll;
+  width: 700px;
+  height: 1200px;
+  background-color: hwb(240 19% 71%);
+  justify-content: center;
+  margin-left: 600px;
+  border-radius: 5px;
+  border: solid 1px rgb(21, 27, 42);
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.formulaire label {
+  display: flex;
+  flex-direction: column;
+}
+
+label .coche {
+  display: block;
+  position: relative;
+}
+
+h1 {
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+}
+
+p {
+  margin:3px 8px 4px 8px ;
+  font-size: 1.125rem;
+  font-style: italic;
+  text-align: center;
+}
+
+body {
+  content: '';
   top: 0;
   left: 0;
   height: 100%;
@@ -54,24 +50,42 @@ body{
   z-index: -1;
   background-image: linear-gradient(
     115deg,
-    rgba(113, 113, 142, 0.8),
+    rgba(58, 58, 158, 0.8),
     rgba(136, 136, 206, 0.7)
     ),
-    url(/portfolio/assets/images/back.jpeg); 
-  background-size: cover;
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
+input,
+button,
+select,
+textarea {
+  margin: 2px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
 
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+:root {
+  --color-white: #f3f3f3;
+  --color-darkblue: #1b1b32;
+  --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+  --color-green: #37af65;
+}
 
+.boutton {
+  height: 34px;
+  width: 700px;
+  background-color: #37af65;
+  text-align: center;
+}
 
-
-
-
-
-
-
-
-
+.coche {
+  margin-left: 0.25rem;
+  font-size: 1rem;
+  color: #e4e4e4;
+}
 

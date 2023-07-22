@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
 * {
   padding: 0;
-  padding: 0;
+  margin: 0;
 }
 
 .formulaire {
@@ -9,11 +11,11 @@
   overflow-y: scroll;
   width: 700px;
   height: 1200px;
-  background-color: hwb(240 19% 71%);
+  background-color: hwb(240deg 19% 71%);
   justify-content: center;
   margin-left: 600px;
   border-radius: 5px;
-  border: solid 1px rgb(21, 27, 42);
+  border: solid 1px rgb(184, 146, 21);
   color: white;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -21,6 +23,11 @@
 .formulaire label {
   display: flex;
   flex-direction: column;
+}
+.coche {
+  margin-left: 0.25rem;
+  font-size: 1rem;
+  color: #e4e4e4;
 }
 
 label .coche {
@@ -35,25 +42,28 @@ h1 {
 }
 
 p {
-  margin:3px 8px 4px 8px ;
+  margin:3px 8px 4px;
   font-size: 1.125rem;
   font-style: italic;
   text-align: center;
 }
 
 body {
-  content: '';
+  content: "";
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
   z-index: -1;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
     115deg,
-    rgba(58, 58, 158, 0.8),
-    rgba(136, 136, 206, 0.7)
-    ),
-    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);  background-size: cover;
+    rgba(58, 58, 158, 80%),
+    rgba(136, 136, 206, 70%)
+  ),
+
+   "url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg)";
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -67,12 +77,10 @@ textarea {
   font-size: inherit;
   line-height: inherit;
 }
-
-@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
 :root {
   --color-white: #f3f3f3;
   --color-darkblue: #1b1b32;
-  --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+  --color-darkblue-alpha: rgba(27, 27, 50, 80%);
   --color-green: #37af65;
 }
 
@@ -82,10 +90,3 @@ textarea {
   background-color: #37af65;
   text-align: center;
 }
-
-.coche {
-  margin-left: 0.25rem;
-  font-size: 1rem;
-  color: #e4e4e4;
-}
-

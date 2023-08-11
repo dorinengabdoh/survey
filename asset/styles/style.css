@@ -35,6 +35,14 @@ label .coche {
   position: relative;
 }
 
+.texte {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: #fff;
+}
+
 h1 {
   font-weight: 700;
   line-height: 1.2;
